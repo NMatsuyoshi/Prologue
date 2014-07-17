@@ -1,0 +1,147 @@
+@charset "utf-8";
+@charset "utf-8";
+
+/*
+===== 1: universal reset =================================
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/*
+===== 2: body and base setting ===========================
+*/
+
+body {
+	text-align:center;/* box centering */
+	font-size: 24px;
+	font-family: "メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	line-height: 1.4em;
+	margin: 0px;
+	padding: 0px;
+	background-color:#f45fa5;
+
+}
+
+/* general params
+--------------------*/
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote{
+	padding: 0;/* margin&padding reset */
+	line-height: 1.5em;/* base line height */
+	text-align: left;
+	display: block;
+	margin: 0px;
+}
+a{outline: none;}
+hr,.areaAnchor,.anchor { display : none; }
+img {
+	border: none;/* img do not want a border */
+	vertical-align: bottom;
+}
+li { 
+	list-style: none; 
+	float:left; 
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}/* link do not want a dot */
+a{outline:none;}
+
+
+/*
+===== 3: link setting ===========================
+*/
+a:link{
+	color: #ff0;
+	text-decoration:none;
+}
+a:visited{
+	color: #ff0;
+	text-decoration:none;
+}
+
+
+
+/*
+===== 4: layout ===========================
+*/
+
+
+#help {width:550px; margin:0 auto;}
+
+
+/*
+===== 5: global ===========================
+*/
+
+.fltrt { 
+	float: right;
+	/*margin-left: 8px;*/
+}
+.fltlft { 
+	float: left;
+	/*margin-right: 8px;*/
+}
+.clearfloat { /* このクラスは、#footer が #container から削除されているか取り出されている場合に、<br /> または空の div で、フローティングさせる最後の div に続く最後のエレメントとして (#container 内に) 配置できます。 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.fontSp01{
+	font-size:16px; color:#740000;
+}
+.colorMsg{color:#ffd6e9;}
+.fontBlod{font-weight:bold;}
+
+
+/*
+===== 6:osu ===========================
+*/
+
+#osu{}
+#osu .mainlist{height:100%; width:100%;}
+
+	
+
+#osu .mainlist .top{width:100%;
+	height:50px;
+	background-color: #f45fa5;
+	}
+
+#osu .mainlist .main{ height:500px; width:480;
+	background-color:#ffd6e9;
+	background-image:url(../img/main_img.jpg) ;background-repeat: no-repeat;
+	background-position:center;
+	}
+
+#osu .mainlist .under{width:100%;
+	height:50px;
+	background-color: #f45fa5}
+	
+
+#osu .mainlist .capsule{ height:500px; width:480;
+	background-color:#ffd6e9;
+	background-image:url(../img/capsule_img.jpg) ;background-repeat: no-repeat;
+	background-position:center;
+	}
+
+#osu .mainlist .result{ height:500px; width:480;
+	background-color:#ffd6e9;
+	background-image:url(../img/result_img.jpg) ;background-repeat: no-repeat;
+	background-position:center;
+	}
+
+
+
+
+/* CSS Document */
+
+
+
+
